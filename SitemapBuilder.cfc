@@ -107,7 +107,7 @@ component name="SitemapBuilder"
 		return result;
 	}
 
-	private function urlFilter(required string value = "", required array filterList = [])
+	private boolean function urlFilter(required string value = "", required array filterList = [])
 		output="false"
 	{
 		var item = "";
