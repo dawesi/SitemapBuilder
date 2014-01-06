@@ -3,7 +3,7 @@ SitemapBuilder
 
 A "Proof of Concept" Sitemap.xml generator built on ColdFusion 10 and jSoup that will scrape all absolute links from a supplied website address that match the base href and output a Sitemap.xml file containing the collected links.
 
-Becuase of how many links that could be, use at your own risk. Preferably in a dev environment first.
+Because of how many links that could be, use at your own risk. Preferably in a dev environment first.
 
 This POC is based on the LinkScraper repository.
 
