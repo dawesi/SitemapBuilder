@@ -13,7 +13,7 @@ component name="SitemapBuilder"
 	{
 		var startTime = getTickCount();
 		var links = [];
-		var data = link = "";
+		var data = var link = "";
 		var result = {status: "", urls: [], file: "", time: 0};
 
 		try {
@@ -59,9 +59,9 @@ component name="SitemapBuilder"
 		output="false"
 	{
 		var jsoup = createObject("java", "org.jsoup.Jsoup");
-		var link = href = value = "";
+		var link = var href = var value = "";
 		var lengths = {};
-		var links = lts = ltns = match = result = [];
+		var links = var lts = var ltns = var match = var result = [];
 		var i = 0;
 
         if (!reFindNoCase(left(VARIABLES.website, 7), "http://")) {
